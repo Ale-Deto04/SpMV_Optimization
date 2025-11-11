@@ -97,7 +97,7 @@ vector<double> CompressedSparseRow::multiply_to_vector(const vector<double>& vec
 
     vector<double> result(original_matrix_row_number);
 
-    #pragma parallel for schedule(guided)
+    #pragma parallel for schedule(runtime)
     for (size_t i = 0; i < original_matrix_row_number; i++) {
 
         double partial_sum = 0;

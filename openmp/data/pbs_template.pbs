@@ -37,7 +37,9 @@ PROGRAM_NAME="parallel_$THREADS.$SCHEDULING.elf"
 # RESULT FILE 
 OUTPUT_FILE="/Path/To/File.$THREADS.$SCHEDULING.result.txt"
 
+# Environment variables
 export OMP_NUM_THREADS=$THREADS
+export OMP_SCHEDULE=$SCHEDULING
 
 echo "[INFO]: Starting testing session - $(date)"
 
