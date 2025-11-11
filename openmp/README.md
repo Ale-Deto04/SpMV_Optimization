@@ -33,7 +33,7 @@ The class defines the CSR data structure and provides the implementation of the 
 
 OpenMP has been used to parallelize the `multiply_to_vector()` function implemented in the `csr.cpp` file.
 
-Two level of parallelization have been employed:
+Two level of parallelization have been adopted:
 
 1. `#pragma omp parallel for`: parallelize the outer `for` loop with three different scheduling strategies: `static`, `dynamic` and `guided`
 
