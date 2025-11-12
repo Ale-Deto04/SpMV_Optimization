@@ -143,7 +143,7 @@ Run the sequential program:
 Run the parallel program:
 
 ```bash
-# SET THE PROPER ENVIRONMENT VARIABLES
+# SET THE PROPER ENVIRONMENT VARIABLES e.g.
 export OMP_NUM_THREADS=8        # Threads number
 export OMP_SCHEDULE="static"    # Scheduling strategy
 
