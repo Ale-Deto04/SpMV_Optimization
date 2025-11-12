@@ -189,7 +189,7 @@ The program prints performance data directly to `stdout` in the format:
 
 This simple format makes it easy to parse and collect results for further analysis.
 
-A verbose flag `-v` can be used for a more detailed output.
+A verbose flag `-v` can be used for a more detailed output e.g.
 
 ```bash
 ./sequential /path/to/matrix -v
