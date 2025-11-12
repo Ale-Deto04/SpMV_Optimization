@@ -77,7 +77,7 @@ The program has been tested with the following symmetric matrices from [SuiteSpa
 |MAWI|[mawi_201512020330](https://sparse.tamu.edu/MAWI/mawi_201512020330)|huge.mtx|226.196.185|480.047.894|
 
 All matrices represent undirected weighted graphs.  
-Their sizes increase *exponentially* to effectively evaluate performance as the problem scales.
+Their sizes increase **exponentially** to effectively evaluate performance as the problem scales.
 
 
 ### Benchmarking procedure
