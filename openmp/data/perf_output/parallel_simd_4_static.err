@@ -1,0 +1,800 @@
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    38,466,354,583      cycles:u                                                    
+    70,559,368,220      instructions:u            #    1.83  insn per cycle         
+    14,501,414,426      L1-dcache-loads:u                                           
+       209,090,845      L1-dcache-load-misses:u   #    1.44% of all L1-dcache hits  
+        25,315,125      LLC-loads:u                                                 
+        16,152,750      LLC-load-misses:u         #   63.81% of all LL-cache hits   
+
+      22.387458388 seconds time elapsed
+
+      14.979809000 seconds user
+       5.620706000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    74,037,986,360      cycles:u                                                    
+   140,579,613,161      instructions:u            #    1.90  insn per cycle         
+    28,666,351,567      L1-dcache-loads:u                                           
+       420,981,926      L1-dcache-load-misses:u   #    1.47% of all L1-dcache hits  
+        51,382,627      LLC-loads:u                                                 
+        30,758,670      LLC-load-misses:u         #   59.86% of all LL-cache hits   
+
+      35.545186453 seconds time elapsed
+
+      26.991784000 seconds user
+       7.982587000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   128,710,980,808      cycles:u                                                    
+   271,801,434,255      instructions:u            #    2.11  insn per cycle         
+    55,319,198,343      L1-dcache-loads:u                                           
+       818,893,582      L1-dcache-load-misses:u   #    1.48% of all L1-dcache hits  
+       110,712,492      LLC-loads:u                                                 
+        57,050,466      LLC-load-misses:u         #   51.53% of all LL-cache hits   
+
+      52.402502914 seconds time elapsed
+
+      40.663019000 seconds user
+      11.612347000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   272,544,524,860      cycles:u                                                    
+   514,775,694,314      instructions:u            #    1.89  insn per cycle         
+   104,524,799,378      L1-dcache-loads:u                                           
+     1,585,902,972      L1-dcache-load-misses:u   #    1.52% of all L1-dcache hits  
+       196,699,026      LLC-loads:u                                                 
+       122,002,888      LLC-load-misses:u         #   62.03% of all LL-cache hits   
+
+     149.765043603 seconds time elapsed
+
+     101.427774000 seconds user
+      37.832359000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   506,217,791,792      cycles:u                                                    
+   931,561,135,560      instructions:u            #    1.84  insn per cycle         
+   187,648,618,318      L1-dcache-loads:u                                           
+     2,959,234,209      L1-dcache-load-misses:u   #    1.58% of all L1-dcache hits  
+       365,232,461      LLC-loads:u                                                 
+       227,859,961      LLC-load-misses:u         #   62.39% of all LL-cache hits   
+
+     266.528189358 seconds time elapsed
+
+     178.145927000 seconds user
+      68.496770000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    30,279,675,363      cycles:u                                                    
+    70,559,062,518      instructions:u            #    2.33  insn per cycle         
+    14,501,310,828      L1-dcache-loads:u                                           
+       206,770,172      L1-dcache-load-misses:u   #    1.43% of all L1-dcache hits  
+        27,921,986      LLC-loads:u                                                 
+        14,210,258      LLC-load-misses:u         #   50.89% of all LL-cache hits   
+
+      11.385023131 seconds time elapsed
+
+       9.422635000 seconds user
+       1.933338000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    64,947,941,235      cycles:u                                                    
+   140,580,220,504      instructions:u            #    2.16  insn per cycle         
+    28,666,417,643      L1-dcache-loads:u                                           
+       408,010,829      L1-dcache-load-misses:u   #    1.42% of all L1-dcache hits  
+        53,690,534      LLC-loads:u                                                 
+        27,851,612      LLC-load-misses:u         #   51.87% of all LL-cache hits   
+
+      26.812196209 seconds time elapsed
+
+      20.170501000 seconds user
+       6.560899000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   145,054,678,032      cycles:u                                                    
+   271,803,329,864      instructions:u            #    1.87  insn per cycle         
+    55,319,984,840      L1-dcache-loads:u                                           
+       820,610,631      L1-dcache-load-misses:u   #    1.48% of all L1-dcache hits  
+       101,282,864      LLC-loads:u                                                 
+        63,726,436      LLC-load-misses:u         #   62.92% of all LL-cache hits   
+
+      97.324550486 seconds time elapsed
+
+      54.592752000 seconds user
+      24.724538000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   262,098,935,047      cycles:u                                                    
+   514,776,862,244      instructions:u            #    1.96  insn per cycle         
+   104,525,277,107      L1-dcache-loads:u                                           
+     1,582,984,108      L1-dcache-load-misses:u   #    1.51% of all L1-dcache hits  
+       210,334,270      LLC-loads:u                                                 
+       116,017,539      LLC-load-misses:u         #   55.16% of all LL-cache hits   
+
+     119.006966851 seconds time elapsed
+
+      86.003991000 seconds user
+      31.332900000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   454,913,373,832      cycles:u                                                    
+   931,559,432,419      instructions:u            #    2.05  insn per cycle         
+   187,649,182,114      L1-dcache-loads:u                                           
+     2,962,294,289      L1-dcache-load-misses:u   #    1.58% of all L1-dcache hits  
+       429,246,844      LLC-loads:u                                                 
+       220,943,731      LLC-load-misses:u         #   51.47% of all LL-cache hits   
+
+     243.918774334 seconds time elapsed
+
+     158.126568000 seconds user
+      54.243814000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    37,868,302,790      cycles:u                                                    
+    70,559,376,372      instructions:u            #    1.86  insn per cycle         
+    14,501,350,533      L1-dcache-loads:u                                           
+       210,618,244      L1-dcache-load-misses:u   #    1.45% of all L1-dcache hits  
+        25,755,125      LLC-loads:u                                                 
+        16,316,852      LLC-load-misses:u         #   63.35% of all LL-cache hits   
+
+      26.210225218 seconds time elapsed
+
+      14.387608000 seconds user
+       4.894120000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    80,227,501,570      cycles:u                                                    
+   140,579,943,632      instructions:u            #    1.75  insn per cycle         
+    28,666,477,151      L1-dcache-loads:u                                           
+       425,392,827      L1-dcache-load-misses:u   #    1.48% of all L1-dcache hits  
+        46,635,566      LLC-loads:u                                                 
+        30,108,101      LLC-load-misses:u         #   64.56% of all LL-cache hits   
+
+      45.764378487 seconds time elapsed
+
+      28.807820000 seconds user
+       9.734064000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   131,134,938,233      cycles:u                                                    
+   271,801,255,515      instructions:u            #    2.07  insn per cycle         
+    55,319,203,929      L1-dcache-loads:u                                           
+       831,184,878      L1-dcache-load-misses:u   #    1.50% of all L1-dcache hits  
+       109,876,954      LLC-loads:u                                                 
+        60,639,288      LLC-load-misses:u         #   55.19% of all LL-cache hits   
+
+      58.018667706 seconds time elapsed
+
+      44.895048000 seconds user
+      12.126737000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   248,982,084,732      cycles:u                                                    
+   514,773,019,285      instructions:u            #    2.07  insn per cycle         
+   104,524,482,197      L1-dcache-loads:u                                           
+     1,593,680,465      L1-dcache-load-misses:u   #    1.52% of all L1-dcache hits  
+       202,016,730      LLC-loads:u                                                 
+       118,770,166      LLC-load-misses:u         #   58.79% of all LL-cache hits   
+
+     116.523134677 seconds time elapsed
+
+      82.213262000 seconds user
+      19.069013000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   447,500,277,569      cycles:u                                                    
+   931,560,850,053      instructions:u            #    2.08  insn per cycle         
+   187,648,730,262      L1-dcache-loads:u                                           
+     2,969,962,979      L1-dcache-load-misses:u   #    1.58% of all L1-dcache hits  
+       423,512,035      LLC-loads:u                                                 
+       221,889,428      LLC-load-misses:u         #   52.39% of all LL-cache hits   
+
+     214.396857000 seconds time elapsed
+
+     150.762718000 seconds user
+      55.423854000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    42,030,996,226      cycles:u                                                    
+    70,559,683,937      instructions:u            #    1.68  insn per cycle         
+    14,501,514,293      L1-dcache-loads:u                                           
+       204,381,269      L1-dcache-load-misses:u   #    1.41% of all L1-dcache hits  
+        23,828,538      LLC-loads:u                                                 
+        16,165,146      LLC-load-misses:u         #   67.84% of all LL-cache hits   
+
+      29.118634654 seconds time elapsed
+
+      15.516155000 seconds user
+       6.823448000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    79,365,453,065      cycles:u                                                    
+   140,580,107,354      instructions:u            #    1.77  insn per cycle         
+    28,666,479,652      L1-dcache-loads:u                                           
+       426,139,781      L1-dcache-load-misses:u   #    1.49% of all L1-dcache hits  
+        47,815,505      LLC-loads:u                                                 
+        31,070,136      LLC-load-misses:u         #   64.98% of all LL-cache hits   
+
+      45.073084513 seconds time elapsed
+
+      28.862860000 seconds user
+       9.508542000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   126,235,605,475      cycles:u                                                    
+   271,801,330,849      instructions:u            #    2.15  insn per cycle         
+    55,319,275,432      L1-dcache-loads:u                                           
+       835,055,849      L1-dcache-load-misses:u   #    1.51% of all L1-dcache hits  
+       109,715,705      LLC-loads:u                                                 
+        59,430,618      LLC-load-misses:u         #   54.17% of all LL-cache hits   
+
+      54.061705264 seconds time elapsed
+
+      42.092094000 seconds user
+      11.651300000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   224,556,048,916      cycles:u                                                    
+   514,771,906,458      instructions:u            #    2.29  insn per cycle         
+   104,524,504,291      L1-dcache-loads:u                                           
+     1,589,893,266      L1-dcache-load-misses:u   #    1.52% of all L1-dcache hits  
+       226,277,164      LLC-loads:u                                                 
+       108,110,075      LLC-load-misses:u         #   47.78% of all LL-cache hits   
+
+      84.216327270 seconds time elapsed
+
+      69.429994000 seconds user
+      14.576937000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   445,008,681,160      cycles:u                                                    
+   931,559,566,175      instructions:u            #    2.09  insn per cycle         
+   187,648,307,891      L1-dcache-loads:u                                           
+     2,937,216,794      L1-dcache-load-misses:u   #    1.57% of all L1-dcache hits  
+       412,057,266      LLC-loads:u                                                 
+       223,347,836      LLC-load-misses:u         #   54.20% of all LL-cache hits   
+
+     208.851741363 seconds time elapsed
+
+     154.211696000 seconds user
+      39.752758000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    30,301,736,393      cycles:u                                                    
+    70,558,833,175      instructions:u            #    2.33  insn per cycle         
+    14,501,305,929      L1-dcache-loads:u                                           
+       212,287,207      L1-dcache-load-misses:u   #    1.46% of all L1-dcache hits  
+        26,536,226      LLC-loads:u                                                 
+        13,649,005      LLC-load-misses:u         #   51.44% of all LL-cache hits   
+
+      11.053178808 seconds time elapsed
+
+       9.414846000 seconds user
+       1.599067000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    63,144,314,623      cycles:u                                                    
+   140,579,519,565      instructions:u            #    2.23  insn per cycle         
+    28,666,253,135      L1-dcache-loads:u                                           
+       420,546,751      L1-dcache-load-misses:u   #    1.47% of all L1-dcache hits  
+        55,505,725      LLC-loads:u                                                 
+        29,448,818      LLC-load-misses:u         #   53.06% of all LL-cache hits   
+
+      26.390326519 seconds time elapsed
+
+      20.034713000 seconds user
+       4.665071000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   141,643,078,089      cycles:u                                                    
+   271,801,604,597      instructions:u            #    1.92  insn per cycle         
+    55,319,578,969      L1-dcache-loads:u                                           
+       845,092,564      L1-dcache-load-misses:u   #    1.53% of all L1-dcache hits  
+       103,535,921      LLC-loads:u                                                 
+        62,496,989      LLC-load-misses:u         #   60.36% of all LL-cache hits   
+
+      85.655310987 seconds time elapsed
+
+      52.223537000 seconds user
+      17.432474000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   225,529,153,687      cycles:u                                                    
+   514,772,790,654      instructions:u            #    2.28  insn per cycle         
+   104,524,523,588      L1-dcache-loads:u                                           
+     1,598,531,584      L1-dcache-load-misses:u   #    1.53% of all L1-dcache hits  
+       236,986,318      LLC-loads:u                                                 
+       109,932,148      LLC-load-misses:u         #   46.39% of all LL-cache hits   
+
+      97.183277126 seconds time elapsed
+
+      76.195639000 seconds user
+      18.248983000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   410,859,233,197      cycles:u                                                    
+   931,553,773,246      instructions:u            #    2.27  insn per cycle         
+   187,648,016,683      L1-dcache-loads:u                                           
+     2,924,598,678      L1-dcache-load-misses:u   #    1.56% of all L1-dcache hits  
+       424,971,086      LLC-loads:u                                                 
+       214,138,701      LLC-load-misses:u         #   50.39% of all LL-cache hits   
+
+     185.610261857 seconds time elapsed
+
+     146.602448000 seconds user
+      32.729895000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    29,813,420,802      cycles:u                                                    
+    70,558,382,749      instructions:u            #    2.37  insn per cycle         
+    14,501,336,961      L1-dcache-loads:u                                           
+       223,390,817      L1-dcache-load-misses:u   #    1.54% of all L1-dcache hits  
+        25,113,831      LLC-loads:u                                                 
+        11,989,612      LLC-load-misses:u         #   47.74% of all LL-cache hits   
+
+      10.461111292 seconds time elapsed
+
+       9.162448000 seconds user
+       1.271851000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    63,862,095,769      cycles:u                                                    
+   140,578,123,964      instructions:u            #    2.20  insn per cycle         
+    28,666,295,625      L1-dcache-loads:u                                           
+       453,617,058      L1-dcache-load-misses:u   #    1.58% of all L1-dcache hits  
+        46,836,046      LLC-loads:u                                                 
+        25,616,659      LLC-load-misses:u         #   54.69% of all LL-cache hits   
+
+      27.619434941 seconds time elapsed
+
+      20.581731000 seconds user
+       2.726195000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   137,852,031,354      cycles:u                                                    
+   271,799,342,043      instructions:u            #    1.97  insn per cycle         
+    55,319,587,552      L1-dcache-loads:u                                           
+       895,225,927      L1-dcache-load-misses:u   #    1.62% of all L1-dcache hits  
+        94,256,961      LLC-loads:u                                                 
+        53,007,006      LLC-load-misses:u         #   56.24% of all LL-cache hits   
+
+      81.723000165 seconds time elapsed
+
+      51.048328000 seconds user
+      11.832400000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   221,307,534,341      cycles:u                                                    
+   514,771,825,957      instructions:u            #    2.33  insn per cycle         
+   104,524,399,890      L1-dcache-loads:u                                           
+     1,602,030,412      L1-dcache-load-misses:u   #    1.53% of all L1-dcache hits  
+       233,693,885      LLC-loads:u                                                 
+       103,001,993      LLC-load-misses:u         #   44.08% of all LL-cache hits   
+
+      89.549752811 seconds time elapsed
+
+      73.097485000 seconds user
+      15.704510000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   425,000,185,935      cycles:u                                                    
+   931,543,153,124      instructions:u            #    2.19  insn per cycle         
+   187,648,227,557      L1-dcache-loads:u                                           
+     3,192,340,735      L1-dcache-load-misses:u   #    1.70% of all L1-dcache hits  
+       360,952,251      LLC-loads:u                                                 
+       173,668,321      LLC-load-misses:u         #   48.11% of all LL-cache hits   
+
+     188.131941085 seconds time elapsed
+
+     146.474269000 seconds user
+      19.783252000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    29,955,006,194      cycles:u                                                    
+    70,559,055,247      instructions:u            #    2.36  insn per cycle         
+    14,501,304,206      L1-dcache-loads:u                                           
+       206,460,969      L1-dcache-load-misses:u   #    1.42% of all L1-dcache hits  
+        28,536,483      LLC-loads:u                                                 
+        13,926,380      LLC-load-misses:u         #   48.80% of all LL-cache hits   
+
+      11.156798652 seconds time elapsed
+
+       9.356729000 seconds user
+       1.760996000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    60,597,434,368      cycles:u                                                    
+   140,579,842,797      instructions:u            #    2.32  insn per cycle         
+    28,666,340,778      L1-dcache-loads:u                                           
+       416,216,143      L1-dcache-load-misses:u   #    1.45% of all L1-dcache hits  
+        59,204,071      LLC-loads:u                                                 
+        27,384,146      LLC-load-misses:u         #   46.25% of all LL-cache hits   
+
+      23.263707672 seconds time elapsed
+
+      18.837434000 seconds user
+       4.368686000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   131,031,507,746      cycles:u                                                    
+   271,799,506,691      instructions:u            #    2.07  insn per cycle         
+    55,319,640,323      L1-dcache-loads:u                                           
+       890,925,171      L1-dcache-load-misses:u   #    1.61% of all L1-dcache hits  
+        99,665,669      LLC-loads:u                                                 
+        52,667,197      LLC-load-misses:u         #   52.84% of all LL-cache hits   
+
+      67.718264584 seconds time elapsed
+
+      47.140527000 seconds user
+      10.104387000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   222,564,800,711      cycles:u                                                    
+   514,771,738,244      instructions:u            #    2.31  insn per cycle         
+   104,524,502,183      L1-dcache-loads:u                                           
+     1,594,629,794      L1-dcache-load-misses:u   #    1.53% of all L1-dcache hits  
+       233,023,779      LLC-loads:u                                                 
+       109,532,571      LLC-load-misses:u         #   47.00% of all LL-cache hits   
+
+      94.690684956 seconds time elapsed
+
+      77.207329000 seconds user
+      15.063944000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   406,491,215,536      cycles:u                                                    
+   931,542,855,904      instructions:u            #    2.29  insn per cycle         
+   187,648,103,218      L1-dcache-loads:u                                           
+     3,185,763,713      L1-dcache-load-misses:u   #    1.70% of all L1-dcache hits  
+       418,608,442      LLC-loads:u                                                 
+       164,762,818      LLC-load-misses:u         #   39.36% of all LL-cache hits   
+
+     172.120113285 seconds time elapsed
+
+     138.978099000 seconds user
+      17.807379000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    29,067,255,879      cycles:u                                                    
+    70,558,334,102      instructions:u            #    2.43  insn per cycle         
+    14,501,305,330      L1-dcache-loads:u                                           
+       225,465,498      L1-dcache-load-misses:u   #    1.55% of all L1-dcache hits  
+        26,039,177      LLC-loads:u                                                 
+        10,802,702      LLC-load-misses:u         #   41.49% of all LL-cache hits   
+
+       9.926491755 seconds time elapsed
+
+       8.912761000 seconds user
+       0.985651000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    63,710,527,388      cycles:u                                                    
+   140,578,261,973      instructions:u            #    2.21  insn per cycle         
+    28,666,327,796      L1-dcache-loads:u                                           
+       454,088,278      L1-dcache-load-misses:u   #    1.58% of all L1-dcache hits  
+        48,916,415      LLC-loads:u                                                 
+        26,475,609      LLC-load-misses:u         #   54.12% of all LL-cache hits   
+
+      33.861451724 seconds time elapsed
+
+      23.025617000 seconds user
+       3.685135000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   131,632,540,184      cycles:u                                                    
+   271,798,374,102      instructions:u            #    2.06  insn per cycle         
+    55,319,450,102      L1-dcache-loads:u                                           
+       885,883,302      L1-dcache-load-misses:u   #    1.60% of all L1-dcache hits  
+        95,850,344      LLC-loads:u                                                 
+        51,272,900      LLC-load-misses:u         #   53.49% of all LL-cache hits   
+
+      70.728131823 seconds time elapsed
+
+      48.823987000 seconds user
+      10.863038000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   219,800,530,965      cycles:u                                                    
+   514,768,801,064      instructions:u            #    2.34  insn per cycle         
+   104,525,024,636      L1-dcache-loads:u                                           
+     1,723,926,043      L1-dcache-load-misses:u   #    1.65% of all L1-dcache hits  
+       234,551,928      LLC-loads:u                                                 
+        86,402,276      LLC-load-misses:u         #   36.84% of all LL-cache hits   
+
+      87.329361982 seconds time elapsed
+
+      71.529848000 seconds user
+      14.984651000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   413,507,805,764      cycles:u                                                    
+   931,544,694,257      instructions:u            #    2.25  insn per cycle         
+   187,648,529,439      L1-dcache-loads:u                                           
+     3,164,139,277      L1-dcache-load-misses:u   #    1.69% of all L1-dcache hits  
+       420,635,672      LLC-loads:u                                                 
+       171,956,248      LLC-load-misses:u         #   40.88% of all LL-cache hits   
+
+     183.654097813 seconds time elapsed
+
+     144.258839000 seconds user
+      27.012329000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    34,296,717,262      cycles:u                                                    
+    70,559,334,812      instructions:u            #    2.06  insn per cycle         
+    14,501,435,366      L1-dcache-loads:u                                           
+       205,835,732      L1-dcache-load-misses:u   #    1.42% of all L1-dcache hits  
+        27,284,965      LLC-loads:u                                                 
+        15,851,143      LLC-load-misses:u         #   58.09% of all LL-cache hits   
+
+      20.808666695 seconds time elapsed
+
+      13.339714000 seconds user
+       3.964968000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    68,342,274,795      cycles:u                                                    
+   140,580,424,320      instructions:u            #    2.06  insn per cycle         
+    28,666,542,002      L1-dcache-loads:u                                           
+       423,861,951      L1-dcache-load-misses:u   #    1.48% of all L1-dcache hits  
+        55,137,031      LLC-loads:u                                                 
+        31,992,444      LLC-load-misses:u         #   58.02% of all LL-cache hits   
+
+      42.470423737 seconds time elapsed
+
+      26.730146000 seconds user
+       8.319642000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   145,480,453,353      cycles:u                                                    
+   271,801,388,637      instructions:u            #    1.87  insn per cycle         
+    55,319,591,226      L1-dcache-loads:u                                           
+       864,363,776      L1-dcache-load-misses:u   #    1.56% of all L1-dcache hits  
+        97,317,304      LLC-loads:u                                                 
+        57,777,401      LLC-load-misses:u         #   59.37% of all LL-cache hits   
+
+      65.837531260 seconds time elapsed
+
+      49.416248000 seconds user
+      15.393824000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   254,543,000,497      cycles:u                                                    
+   514,770,804,035      instructions:u            #    2.02  insn per cycle         
+   104,525,306,736      L1-dcache-loads:u                                           
+     1,719,836,430      L1-dcache-load-misses:u   #    1.65% of all L1-dcache hits  
+       189,452,839      LLC-loads:u                                                 
+       100,624,536      LLC-load-misses:u         #   53.11% of all LL-cache hits   
+
+     125.601742264 seconds time elapsed
+
+      89.520110000 seconds user
+      19.805195000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   468,010,390,415      cycles:u                                                    
+   931,547,713,887      instructions:u            #    1.99  insn per cycle         
+   187,649,029,353      L1-dcache-loads:u                                           
+     3,137,732,925      L1-dcache-load-misses:u   #    1.67% of all L1-dcache hits  
+       331,608,169      LLC-loads:u                                                 
+       180,750,673      LLC-load-misses:u         #   54.51% of all LL-cache hits   
+
+     203.627979199 seconds time elapsed
+
+     159.991671000 seconds user
+      32.616087000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/1_little.mtx':
+
+    31,201,907,079      cycles:u                                                    
+    70,558,369,250      instructions:u            #    2.26  insn per cycle         
+    14,501,328,087      L1-dcache-loads:u                                           
+       227,564,187      L1-dcache-load-misses:u   #    1.57% of all L1-dcache hits  
+        23,900,112      LLC-loads:u                                                 
+        12,944,943      LLC-load-misses:u         #   54.16% of all LL-cache hits   
+
+      12.525849044 seconds time elapsed
+
+      10.806929000 seconds user
+       1.639286000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/2_small.mtx':
+
+    61,902,917,801      cycles:u                                                    
+   140,578,879,514      instructions:u            #    2.27  insn per cycle         
+    28,666,474,448      L1-dcache-loads:u                                           
+       452,085,879      L1-dcache-load-misses:u   #    1.58% of all L1-dcache hits  
+        51,173,925      LLC-loads:u                                                 
+        25,599,360      LLC-load-misses:u         #   50.02% of all LL-cache hits   
+
+      24.343345107 seconds time elapsed
+
+      19.997259000 seconds user
+       4.283773000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/3_medium.mtx':
+
+   116,946,058,199      cycles:u                                                    
+   271,797,630,979      instructions:u            #    2.32  insn per cycle         
+    55,319,142,025      L1-dcache-loads:u                                           
+       893,558,006      L1-dcache-load-misses:u   #    1.62% of all L1-dcache hits  
+       100,103,942      LLC-loads:u                                                 
+        49,569,592      LLC-load-misses:u         #   49.52% of all LL-cache hits   
+
+      43.132956942 seconds time elapsed
+
+      38.741729000 seconds user
+       4.285479000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/4_big.mtx':
+
+   229,509,824,682      cycles:u                                                    
+   514,765,968,053      instructions:u            #    2.24  insn per cycle         
+   104,524,433,500      L1-dcache-loads:u                                           
+     1,743,722,119      L1-dcache-load-misses:u   #    1.67% of all L1-dcache hits  
+       205,895,858      LLC-loads:u                                                 
+        93,867,615      LLC-load-misses:u         #   45.59% of all LL-cache hits   
+
+      91.775429070 seconds time elapsed
+
+      80.746388000 seconds user
+       8.977915000 seconds sys
+
+
+
+ Performance counter stats for './parallel_simd_4.static.elf /home/alessandro.detoffoli/matrix/5_huge.mtx':
+
+   391,643,106,422      cycles:u                                                    
+   931,542,990,382      instructions:u            #    2.38  insn per cycle         
+   187,647,900,386      L1-dcache-loads:u                                           
+     3,173,311,086      L1-dcache-load-misses:u   #    1.69% of all L1-dcache hits  
+       402,277,549      LLC-loads:u                                                 
+       164,364,941      LLC-load-misses:u         #   40.86% of all LL-cache hits   
+
+     153.371351438 seconds time elapsed
+
+     133.323012000 seconds user
+      16.546432000 seconds sys
+
+
