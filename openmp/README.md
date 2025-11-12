@@ -9,6 +9,7 @@ The goal is to evaluate the effects of different parallelization strategies on c
 
 - `source`: contains the `C++` source code
 - `data`: contains templates, tables and results
+- `images`: contains media
 
 --- 
 
