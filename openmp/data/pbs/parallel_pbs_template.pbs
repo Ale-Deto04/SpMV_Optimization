@@ -1,0 +1,88 @@
+#!/bin/bash
+
+# Job name
+#PBS -N my_job
+
+# Output and error files path
+#PBS -o ./program_stdout.out
+#PBS -e ./program_stderr.err
+
+# Queue name
+#PBS -q short_cpuQ
+
+# Maximum wall time
+#PBS -l walltime=hh:mm:ss
+
+# Number of nodes, cpus and memory
+#PBS -l select=1:ncpus=?:mem=?gb
+
+# Load modules
+module load gcc91
+
+# Goes to qsub origin directory
+cd "$PBS_O_WORKDIR"
+
+# OMP THREADS NUMBER
+THREADS="?"
+
+# OMP SCHEDULING
+SCHEDULING="?"
+
+# TESTS NUMBER
+TEST_NUM=10
+
+# COMPILED EXECUTABLE NAME
+PROGRAM_NAME="parallel_$THREADS.$SCHEDULING.elf"
+
+# RESULT FILE 
+OUTPUT_FILE="./parallel.$THREADS.$SCHEDULING.result.txt"
+
+# Environment variables
+export OMP_NUM_THREADS=$THREADS
+export OMP_SCHEDULE=$SCHEDULING
+
+echo "[INFO]: Starting testing session - $(date)"
+
+echo "[INFO]: Compiling program..."
+
+# Compiles the program
+g++ -std=c++11 -fopenmp -o "$PROGRAM_NAME" -O3 -march=native *.cpp
+
+# Checks whether compilation succesfully completed
+if [[ $? -ne 0 ]]; then
+    echo "[ERR]: Failed to compile" >&2
+    exit 1
+fi
+
+echo "[INFO]: Program compiled"
+
+echo "[INFO]: Starting matrix evaluation"
+
+# Matrices path
+set=(
+    "Path/To/Matrix_1.mtx"
+    "Path/To/Matrix_2.mtx"
+    "Path/To/Matrix_3.mtx"
+    "Path/To/Matrix_4.mtx"
+    "Path/To/Matrix_5.mtx"
+)
+
+if [[ ! -f  "$OUTPUT_FILE" ]]; then
+    touch "$OUTPUT_FILE"
+fi
+
+echo "# Results for parallel $THREADS threads testings ~ $SCHEDULING scheduling - $(date)" > "$OUTPUT_FILE"
+
+for (( i=0; i<TEST_NUM; i++ )); do
+    
+    echo "# Testing session $((i+1))" >> "$OUTPUT_FILE"
+
+    for matrix in "${set[@]}"; do
+        perf stat -e cycles,instructions,L1-dcache-loads,L1-dcache-load-misses,LLC-loads,LLC-load-misses ./"$PROGRAM_NAME" "$matrix" >> "$OUTPUT_FILE"
+    done
+
+done
+
+rm ./"$PROGRAM_NAME"
+
+echo "[INFO]: Testing session completed - $(date)"                      
