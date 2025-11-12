@@ -26,7 +26,7 @@ The SpMV algorithm is implemented across three main source files:
 `main.cpp` manages the overall program workflow. It reads a symmetric sparse matrix from a text file in Matrix Market (`.mtx`) format, converts it into a Compressed Sparse Row (CSR) representation, and performs the matrix–vector multiplication using a randomly generated dense vector.
 It reports both CPU time and real time measured with the `clock()` and `clock_gettime()` functions for performance evaluation.
 
-`csr.h` and `csr.cpp` implement the CompressedSparseRow class, which represents the core of the program.
+`csr.h` and `csr.cpp` implement the `CompressedSparseRow` class, which represents the core of the program.
 The class defines the CSR data structure and provides the implementation of the SpMV operation, including both the sequential and OpenMP-parallelized variants.
 
 ### Parallelization
