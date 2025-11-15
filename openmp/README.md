@@ -171,7 +171,7 @@ qsub sequential_pbs_template.pbs
 
 The script automatically compiles and runs the program on the HPC cluster 10 times per matrix. Results will appear in the current directory once the execution is completed.
 
-**Notice**: `perf` output is printed on the `stderr`.
+**Notice**: `perf` output will appear on the `stderr`files.
 
 #### Parallel execution
 
@@ -179,7 +179,7 @@ Use the `parallel_pbs_template.pbs` for sequential code and follow the steps abo
 
 Edit environment variables `THREADS` (`line 26`) and `SCHEDULING` (`line 27`) before step 2 in order to explicitly define the omp threads number and the scheduling policy used by the program.
 
-Ensure that `THREADS` does not exceed the number of CPUs requested (`ncpus`) in the `# Number of nodes, cpus and memory` query.
+**Notice**: Ensure that `THREADS` does not exceed the number of CPUs requested (`ncpus`) in the `# Number of nodes, cpus and memory` query.
 
 ### Output
 
