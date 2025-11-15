@@ -169,9 +169,9 @@ export OMP_SCHEDULE="static"    # Scheduling strategy
 qsub sequential_pbs_template.pbs
 ```
 
-The script automatically compiles and runs the program on the HPC cluster 10 times for matrix. Results will appear in the current directory once the execution is completed.
+The script automatically compiles and runs the program on the HPC cluster 10 times per matrix. Results will appear in the current directory once the execution is completed.
 
-`perf` output is printed on the `stderr`
+**Notice**: `perf` output is printed on the `stderr`.
 
 #### Parallel execution
 
