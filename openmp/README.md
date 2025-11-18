@@ -7,6 +7,21 @@ The goal is to evaluate the effects of different parallelization strategies on c
 
 ### Repository structure
 
+```bash
+openmp/
+├── data/
+│   ├── pbs/
+│   ├── perf_output/
+│   └── real_time_table.xlsx
+├── images/
+│   └── graphs/
+├── README.md
+└── source/
+    ├── parallel_no_simd/
+    ├── parallel_simd/
+    └── sequential/
+```
+
 - `source`: contains the `C++` source code
 - `data`: contains templates, tables and results
 - `images`: contains media
