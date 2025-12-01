@@ -224,10 +224,8 @@ A verbose flag `-v` can be used for a more detailed output e.g.
 ---
 
 > [!NOTE]
-
 > The performance measurements obtained on the HPC cluster were highly variable.  
   Identical runs, even separated by short time intervals, could produce drastically different results.  
   Therefore, the dataset being used and discussed in this project refers specifically to the timing obtained **under the resources and allocation assigned during execution**.
-
 >The program is designed to work only with **symmetric matrices** in **Matrix Market text format**.  
   Only matrices in the **coordinate format with three entries per line** (row, column, value) are supported. Matrices in other formats, such as those with only two values per line or in binary format, are **not compatible** with this implementation.
