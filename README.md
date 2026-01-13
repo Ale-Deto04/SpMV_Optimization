@@ -18,4 +18,4 @@ The code parallelization is achieved via OpenMP on shared-memory system.
 
 ## Environment
 
-All the performance tests and profiles are conducted on the Univesrity of Trento's HPC cluster.
+All the performance tests and profiles are conducted on the University of Trento's HPC cluster.
