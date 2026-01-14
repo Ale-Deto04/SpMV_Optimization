@@ -14,6 +14,8 @@ The project aims to analyze and benchmark the performance variations between seq
 
 The code parallelization is achieved via **OpenMP on shared-memory system**.
 
+Navigate to the openmp [folder](openmp) for further information
+
 --- 
 
 ## Environment
