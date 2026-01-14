@@ -1,21 +1,21 @@
 # SpMV Kernel Optimization
 
-The repository is related to the "Introduction to parallel programming" course held at the University of Trento
+The repository is related to the _"Introduction to parallel programming"_ course held at the University of Trento
 
 ---
 
 ## Objectives
 
-The project aims to analyze and benchmark the performance variations between sequential and parallel C++ implementations of the Sparse Matrix - Vector Multiplication (SpMV) algorithm, using the Compressed Sparse Row (CSR) format.
+The project aims to analyze and benchmark the performance variations between sequential and parallel `C++` implementations of the **Sparse Matrix - Vector Multiplication** (**_SpMV_**) algorithm, using the **Compressed Sparse Row** (_**CSR**_) format.
 
 ---
 
 ## Technology
 
-The code parallelization is achieved via OpenMP on shared-memory system.
+The code parallelization is achieved via **OpenMP on shared-memory system**.
 
 --- 
 
 ## Environment
 
-All the performance tests and profiles are conducted on the University of Trento's HPC cluster.
+All the performance tests and profiles are conducted on the **University of Trento's HPC cluster**.
